@@ -7,8 +7,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --no-eslintrc --config eslint.config.mjs .",
-    "preview": "next start"
+    "lint": "next lint",
+    "preview": "next start",
+    "type-check": "tsc --noEmit",
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.7",
