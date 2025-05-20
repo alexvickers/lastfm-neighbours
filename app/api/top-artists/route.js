@@ -21,7 +21,6 @@ export async function GET(req) {
     });
   }
 
-  // Fetch user info
   const userInfoRes = await fetch(
     `${BASE_URL}?method=user.getinfo&user=${username}&api_key=${apiKey}&format=json`
   );
